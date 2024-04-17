@@ -1,0 +1,234 @@
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #fcfcfc;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 100px;
+    z-index: 2;
+}
+
+.hr-header {
+    border: 1px solid rgba(63, 63, 63, 0.1);
+    height: 20px;
+    margin-block: 20px;
+    margin-inline: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 1100px) {
+    .header-container{
+        display: block;
+    }
+
+    .hr-header{
+        display: none;
+    }
+    .company-name{
+        display: none !important;
+    }
+    .header-map{
+        display: none;
+    }
+    .header-geolocation{
+        display: none !important;
+    }
+
+    .logo-wrapper{
+        display: none !important;
+    }
+    .geolocation-text{
+        display: none;
+    }
+    .tel-group{
+        display: none !important;
+    }
+
+    .header-star-container{
+        display: flex !important;
+        margin-right: -2px!important;
+        width: 5px !important;
+        height: 5px !important;
+    }
+
+    .name-logo{
+        font-size: 20px !important;
+        span{
+            font-size: 20px !important;
+        }
+    }
+
+    header{
+        justify-content: space-between !important;
+        padding-inline: 30px;
+    }
+
+    .mobile-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .burger-menu {
+        margin-inline: 15px;
+        width: 30px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .bar {
+        width: 100%;
+        height: 3px;
+        background-color: #000;
+    }
+
+    .header-tel-mobile{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-decoration: none;
+        width: 36px;
+        height: 36px;
+        background: #FFFFFF;
+        box-shadow: 0 14px 54px rgba(0, 0, 0, 0.08);
+        border-radius: 675px;
+    }
+}
+.header-tel-mobile{
+    display: none;
+}
+.header-star-container{
+    display: flex;
+    position: relative;
+    height: 20px;
+    margin-right: -8px;
+}
+
+.name-logo {
+    user-select: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    font-family: 'Lonely Armadillo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(40px + 6 * (100vw/1920));
+    color: #3F3F3F;
+
+    span {
+        position: relative;
+        font-family: "Lonely Armadillo", sans-serif;
+        font-size: calc(40px + 6 * (100vw/1920));
+        font-weight: 700;
+        text-align: left;
+        color: #e21f4d;
+    }
+}
+
+.logo-wrapper {
+    display: flex;
+    align-content: center;
+    width: auto;
+    height: 63px;
+    flex-direction: row;
+}
+
+.company-name {
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: "Manrope", sans-serif;
+    width: 220px;
+    font-weight: 400;
+    font-size: calc(14px + 2 * (100vw/1920));
+    flex-wrap: wrap;
+}
+
+.header-geolocation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    margin-inline: 100px;
+    font-size: calc(14px + 2 * (100vw/1920));
+    line-height: 19px;
+    color: #3F3F3F;
+}
+
+.header-map {
+    background: #FFFFFF;
+    box-shadow: 0 14px 54px rgba(0, 0, 0, 0.08);
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.geolocation-text {
+    margin-inline: 25px;
+
+    p {
+        font-weight: 400;
+    }
+}
+
+.tel-group {
+    width: 250px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0 14px 54px rgba(0, 0, 0, 0.08);
+    border-radius: 675px;
+
+}
+
+.tel-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-size: calc(20px + 2 * (100vw/1920));
+    color: #818181;
+
+    span {
+        margin-left: 5px;
+        font-weight: 700;
+        color: #e21f4d;
+    }
+}
+
+.telephone-text-wrapper {
+    margin-inline: 10px;
+    p{
+        font-size: calc(20px + 2 * (100vw/1920));
+        height: 25px;
+    }
+}
+
+.telephone-text {
+    padding-left: 45px;
+    font-size: calc(10px + 2 * (100vw/1920));
+    li {
+        color: #79BC6E;
+    }
+    li span {
+        margin-left: -2px;
+        color: #818181;
+        font-weight: 400;
+
+    }
+}

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@font-face {
+  font-family: 'Lonely Armadillo';
+  src: url('./fonts/LonelyArmadillo Bold.otf') format('truetype');
+  src: url('./fonts/LonelyArmadillo Bold Italic.otf') format('truetype');
+  src: url('./fonts/LonelyArmadillo Italic.otf') format('truetype');
+  src: url('./fonts/LonelyArmadillo Light.otf') format('truetype');
+  src: url('./fonts/LonelyArmadillo Light Italic.otf') format('truetype');
+  src: url('./fonts/LonelyArmadillo Outline.otf') format('truetype');
+  src: url('./fonts/LonelyArmadillo Outline Italic.otf') format('truetype');
+  src: url('./fonts/LonelyArmadillo Regular.otf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+}

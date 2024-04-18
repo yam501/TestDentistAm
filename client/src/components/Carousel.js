@@ -3,8 +3,8 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import CardItem from "./CardItem";
-
-const Carousel = ({list}) => {
+// {list}
+const Carousel = () => {
     return (
         <OwlCarousel
             className='owl-theme'
@@ -19,11 +19,17 @@ const Carousel = ({list}) => {
                 '<path d="M2.92565 1.07601L10.8399 9.48836C11.0613 9.76508 11.2273 10.0971 11.2273 10.3739C11.2273 10.7059 11.0613 11.038 10.8399 11.3147L2.92565 19.7271C2.42755 20.2805 1.59739 20.2805 1.04394 19.7824C0.490499 19.2843 0.490499 18.4542 0.988599 17.9007L8.07269 10.3739L0.988599 2.90237C0.490499 2.34893 0.490499 1.51876 1.04394 1.02066C1.59739 0.522561 2.42755 0.522561 2.92565 1.07601Z" fill="#E21F4D"/>\n' +
                 '</svg>\n</span>'
             ]}>
-            {
-                list.map((item) => {
-                    <CardItem data={item}/>
-                })
-            }
+            {/*{*/}
+            {/*    list.map((item) => {*/}
+            {/*        <CardItem data={item}/>*/}
+            {/*    })*/}
+            {/*}*/}
+            <CardItem />
+            <CardItem />
+            <CardItem />
+            <CardItem />
+            <CardItem />
+            <CardItem />
         </OwlCarousel>
     );
 };

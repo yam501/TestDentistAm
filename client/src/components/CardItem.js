@@ -1,8 +1,9 @@
 import React from 'react';
-
-const CardItem = ({data}) => {
+// {data}
+const CardItem = () => {
     return (
-        <div className="card-wrapper item" style={{backgroundImage: `url(${data.image})`}}>
+        // style={{backgroundImage: `url(${data.image})`}}
+        <div className="card-wrapper item">
         </div>
     );
 };

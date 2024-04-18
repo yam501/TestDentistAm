@@ -1,0 +1,76 @@
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 5000px;
+    z-index: 6;
+    overflow: hidden;
+}
+
+.services-header {
+    height: 80px;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.our-services-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0 15px 59px rgba(0, 0, 0, 0.08);
+    border-radius: 351px;
+    border: 0;
+    width: 143px;
+    height: 44px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #E21F4D;
+}
+
+.top-text {
+    width: 80%;
+    height: 85px;
+    top: 114px;
+    left: 380px;
+    font-family: "Manrope", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: #3F3F3F;
+    text-transform: uppercase;
+    span{
+        font-family: "Manrope", sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 40px;
+        text-align: left;
+        color: #E21F4D;
+    }
+}
+
+.arrow{
+
+}
+
+.carousel-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-block: 30px;
+}
+
+.card-wrapper{
+    background: black;
+    width: 370px;
+    height: 400px;
+}

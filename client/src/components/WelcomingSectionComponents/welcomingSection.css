@@ -1,4 +1,4 @@
-.main-container{
+.welcoming-container{
     overflow: hidden;
     height: 90vh;
 }
@@ -261,7 +261,7 @@
     border-radius: 1000px;
     border: 0;
     font-family: 'Manrope', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;

@@ -3,6 +3,13 @@ import './servicesSection.css'
 import Carousel from "../Carousel";
 
 const ServicesSection = () => {
+
+    const data = [
+        {
+            "image": "../../assets/Frame1.svg"
+        },
+    ]
+
     return (
         <div className="services-container">
             <div className="services-header">
@@ -15,7 +22,7 @@ const ServicesSection = () => {
                 здоровьем</p>
             </div>
             <div className="carousel-wrapper">
-                <Carousel/>
+                <Carousel list={data}/>
             </div>
         </div>
     );

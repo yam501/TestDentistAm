@@ -16,3 +16,17 @@
     background-size: cover;
     opacity: 5%;
 }
+
+button{
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+button:focus-visible, a:focus-visible{
+    background-color: #E21F4D99;
+    outline: #E21F4D 1px solid !important;
+    color: white !important;
+    span, p, a{
+        color: white !important;
+    }
+}

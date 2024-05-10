@@ -1,0 +1,57 @@
+.tenets-container{
+    background: url("../../assets/tenetsBg.png") 10% -20% no-repeat;
+    width: 100%;
+    height: 923px;
+    display: flex;
+    justify-content: space-evenly;
+    h4{
+
+    }
+}
+
+.tenets-pin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 177px;
+    height: 46px;
+    background: #FFFFFF;
+    box-shadow: 0 15px 59px rgba(0, 0, 0, 0.08);
+    border-radius: 351px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #E21F4D;
+    margin-bottom: -15px;
+}
+
+.tenets-title{
+    width: 575px;
+    height: 81px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: #3F3F3F;
+    span{
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 41px;
+        text-transform: uppercase;
+        color: #E21F4D;
+    }
+}
+
+.tenets-wrapper{
+    svg{
+        position: relative;
+        left: 85%;
+        margin-bottom: 15px;
+    }
+}

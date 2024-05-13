@@ -24,9 +24,7 @@ const AboutUsSection = () => {
                     <span className="head-doctor-position">
                         Главный врач
                     </span>
-                    <button>
-                        Записаться на приём
-                    </button>
+                    <button>Записаться на приём</button>
                 </span>
                 <div className="about-us-info">
                     <div className="about-us-label">

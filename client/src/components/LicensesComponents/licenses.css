@@ -1,0 +1,138 @@
+.licenses-section-wrapper {
+    width: 100%;
+    height: 620px;
+    background: url("../../assets/licensesBg.png") 10% no-repeat;
+    display: flex;
+    justify-content: end;
+}
+
+.licenses-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+}
+
+.licenses-pin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 177px;
+    height: 46px;
+    background: #FFFFFF;
+    box-shadow: 0 15px 59px rgba(0, 0, 0, 0.08);
+    border-radius: 351px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #E21F4D;
+}
+
+.licenses-title {
+    position: relative;
+    left: 5%;
+    margin-top: 25px;
+    width: 362px;
+    height: 74px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    span {
+        color: #E21F4D;
+    }
+}
+
+.licenses-content{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+.licenses-search-all{
+    flex-wrap: nowrap;
+    width: 98px;
+    height: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: #8F8F8F;
+    margin-block: 25px;
+    padding-left: 125px;
+    padding-top: 15px;
+    margin-inline: 150px;
+    svg{
+        position: relative;
+        left: -20%;
+        top: 55%;
+    }
+}
+
+.licenses-activity {
+    margin-top: 35px;
+    width: 447px;
+    height: 68px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #3F3F3F;
+
+    button {
+        margin-top: 15px;
+        width: 292px;
+        height: 80px;
+        border: 0;
+        background: #E21F4D;
+        box-shadow: inset 0 0 27px 4px rgba(255, 255, 255, 0.46), 0 6px 10px rgba(226, 31, 77, 0.6);
+        border-radius: 1000px;
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+}
+
+.licenses-activity-content{
+    margin-block: 35px;
+    display: flex;
+    justify-content: space-between;
+    svg{
+        position: relative;
+        left: -7%;
+        bottom: -10%;
+    }
+}
+
+.licenses-activity-left{
+    width: 227px;
+    height: 80px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    color: #3F3F3F;
+}
+
+.licenses-activity-right{
+    width: 174px;
+    height: 69px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    color: #3F3F3F;
+}

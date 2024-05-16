@@ -5,6 +5,7 @@ import Header from "./components/HeaderComponents/Header";
 import AboutUsSection from "./components/AboutUsComponents/AboutUsSection";
 import TenetsSection from "./components/TenetsCompontents/TenetsSection";
 import ReviewsSection from "./components/ReviewsComponents/ReviewsSection";
+import LicensesSections from "./components/LicensesComponents/LicensesSections";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <AboutUsSection/>
         <TenetsSection/>
         <ReviewsSection/>
+        <LicensesSections/>
     </div>
   );
 }

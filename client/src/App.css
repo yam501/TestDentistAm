@@ -3,6 +3,10 @@
     height: 100vh;
 }
 
+*{
+    font-family: 'Manrope', sans-serif;
+}
+
 .App::before {
     content: '';
     position: absolute;
@@ -16,6 +20,22 @@
     background-size: cover;
     opacity: 5%;
 }
+
+.page_body {
+    flex: 1 1 auto;
+}
+
+#root {
+    min-height: 100% !important;
+    display: flex;
+    flex-direction: column;
+}
+
+html,
+body {
+    height: 100% !important;
+}
+
 
 button{
     cursor: pointer;

@@ -1,10 +1,12 @@
 import React from 'react';
 import './welcoming.css'
 import RedirectButton from "../RedirectButton";
+import Header from "../HeaderComponents/Header";
 
 const WelcomingSection = () => {
     return (
         <div className="welcoming-wrapper">
+            <Header/>
             <div className="welcoming-container">
                 <div className="welcoming-content">
                     <div className="welcoming-left">
